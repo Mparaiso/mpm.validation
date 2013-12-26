@@ -322,3 +322,8 @@ validation.Any=function(values){
 validation.None=function(values){
     return new validation.validators.None(values);
 };
+validation.Chain=function(){
+    var chain =  new validation.validators.ChainValidator();
+    chain._validators=[].slice.apply(arguments);
+    return chain;
+}

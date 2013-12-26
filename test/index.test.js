@@ -179,3 +179,22 @@ describe('validation.Node',function(){
         });
     });
 });
+describe('validation.Chain',function(){
+    var chain = validation.Chain(
+        validation.Email(),
+        validation.MinLength(15)
+    );
+    it('should validation async',function(done){
+        chain.validate("mparaiso@online.fr",function(err,res){
+            assert(res);
+            done();
+        });
+    });
+    it('should not validation async',function(done){
+        chain.validate("bob@web.com",function(err,res){
+            assert(!res);
+            assert(err instanceof Error);
+            done();
+        });
+    });
+});
