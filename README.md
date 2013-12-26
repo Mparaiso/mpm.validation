@@ -11,6 +11,10 @@ license LGPL
 
 author: mparaiso <mparaiso@online.fr>
 
+####INSTALLATION
+
+    npm install mpm.validation
+
 ####USAGE
 
     var validation = require('mpm.validation');
