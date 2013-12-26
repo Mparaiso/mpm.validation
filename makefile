@@ -6,4 +6,6 @@ commit:
 	@git commit -am"auto-commit `date`" || :
 push: commit
 	@git push origin --all
+publish: push
+	@npm publish
 .PHONY: test

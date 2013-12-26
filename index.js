@@ -7,12 +7,14 @@
 var validation = exports;
 var util=require('util');
 /**
- *
+ * a ValidatinError is returned when validation is unsuccessfull.
  * @constructor
+ * @param {String} message An error message
  */
 validation.ValidatorError = function(message){
     Error.apply(this,[].slice.call(arguments));
     this.message=message;
+    this.type=validation.ValidatorError;
 };
 validation.ValidatorError.prototype=new Error();
 
@@ -21,15 +23,26 @@ validation.ValidatorError.prototype=new Error();
  */
 validation.validators={};
 /**
- *
+ * Base class for all validators
  * @constructor
  */
 validation.validators.Base=function(){
 };
 validation.validators.Base.prototype={
+    /**
+     * validate a value async
+     * @param {Object} value
+     * @param {Function} callback
+     * @returns {*}
+     */
     validate:function(value,callback){
         return callback(undefined,true);
     },
+    /**
+     * validate a value sync
+     * @param {Object} value
+     * @returns {boolean}
+     */
     validateSync:function(value){
         var result=true,self=this;
         this.validate(value,function(err,res){self.setError(err);result = res;});

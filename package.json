@@ -1,7 +1,7 @@
 {
   "name": "mpm.validation",
-  "version": "0.0.3",
-  "description": "validation framework for javascript",
+  "version": "0.0.4",
+  "description": "validation framework for the web",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
