@@ -1,0 +1,148 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\mark prades\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'c:\\tmp\\npm-9832-H855_-HB\\1388079567498-0.5014056526124477\\tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. C:\Users\mark prades\AppData\Roaming\npm-cache\1f1177db-tar.lock
+15 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+16 verbose lock tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz C:\Users\mark prades\AppData\Roaming\npm-cache\0885526e-67498-0-5014056526124477-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+20 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+21 verbose tar unpack c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+22 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+23 verbose lock tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package C:\Users\mark prades\AppData\Roaming\npm-cache\de5c58d7-67498-0-5014056526124477-package.lock
+24 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+25 verbose lock tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz C:\Users\mark prades\AppData\Roaming\npm-cache\0885526e-67498-0-5014056526124477-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+31 silly gunzTarPerm extractEntry README.md
+32 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+33 silly gunzTarPerm extractEntry index.js
+34 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+35 silly gunzTarPerm extractEntry .travis.yml
+36 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+37 silly gunzTarPerm extractEntry makefile
+38 silly gunzTarPerm modified mode [ 'makefile', 438, 420 ]
+39 silly gunzTarPerm extractEntry test/index.test.js
+40 silly gunzTarPerm modified mode [ 'test/index.test.js', 438, 420 ]
+41 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+42 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+43 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+44 silly lockFile 0885526e-67498-0-5014056526124477-tmp-tgz tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\tmp.tgz
+45 verbose tar pack [ 'C:\\Users\\mark prades\\AppData\\Roaming\\npm-cache\\mpm.validation\\0.0.4\\package.tgz',
+45 verbose tar pack   'c:\\tmp\\npm-9832-H855_-HB\\1388079567498-0.5014056526124477\\package' ]
+46 verbose tarball C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+47 verbose folder c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+48 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+49 verbose lock tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package C:\Users\mark prades\AppData\Roaming\npm-cache\de5c58d7-67498-0-5014056526124477-package.lock
+50 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+51 verbose lock tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz C:\Users\mark prades\AppData\Roaming\npm-cache\0958fee1-mpm-validation-0-0-4-package-tgz.lock
+52 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+53 silly lockFile de5c58d7-67498-0-5014056526124477-package tar://c:\tmp\npm-9832-H855_-HB\1388079567498-0.5014056526124477\package
+54 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+55 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+56 silly lockFile 47100443-che-mpm-validation-0-0-4-package C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+57 verbose lock C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package C:\Users\mark prades\AppData\Roaming\npm-cache\47100443-che-mpm-validation-0-0-4-package.lock
+58 silly lockFile 47100443-che-mpm-validation-0-0-4-package C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+59 silly lockFile 47100443-che-mpm-validation-0-0-4-package C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+60 verbose tar unpack C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+61 silly lockFile a4fc11d0-che-mpm-validation-0-0-4-package tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+62 verbose lock tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package C:\Users\mark prades\AppData\Roaming\npm-cache\a4fc11d0-che-mpm-validation-0-0-4-package.lock
+63 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+64 verbose lock tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz C:\Users\mark prades\AppData\Roaming\npm-cache\0958fee1-mpm-validation-0-0-4-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+68 silly gunzTarPerm extractEntry .npmignore
+69 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+70 silly gunzTarPerm extractEntry README.md
+71 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+72 silly gunzTarPerm extractEntry index.js
+73 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry .travis.yml
+75 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+76 silly gunzTarPerm extractEntry makefile
+77 silly gunzTarPerm modified mode [ 'makefile', 438, 420 ]
+78 silly gunzTarPerm extractEntry test/index.test.js
+79 silly gunzTarPerm modified mode [ 'test/index.test.js', 438, 420 ]
+80 silly lockFile a4fc11d0-che-mpm-validation-0-0-4-package tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+81 silly lockFile a4fc11d0-che-mpm-validation-0-0-4-package tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package
+82 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+83 silly lockFile 0958fee1-mpm-validation-0-0-4-package-tgz tar://C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+84 verbose chmod C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz 644
+85 silly chown skipping for windows C:\Users\mark prades\AppData\Roaming\npm-cache\mpm.validation\0.0.4\package.tgz
+86 silly lockFile 3a52ce78- .
+87 silly lockFile 3a52ce78- .
+88 silly publish { name: 'mpm.validation',
+88 silly publish   version: '0.0.4',
+88 silly publish   description: 'validation framework for the web',
+88 silly publish   main: 'index.js',
+88 silly publish   scripts: { test: 'mocha -R spec' },
+88 silly publish   repository:
+88 silly publish    { type: 'git',
+88 silly publish      url: 'git@github.com:Mparaiso/mpm.validation.git' },
+88 silly publish   devDependencies: { mocha: '*' },
+88 silly publish   keywords: [ 'validation', 'validators' ],
+88 silly publish   author: { name: 'mparaiso' },
+88 silly publish   license: 'LGPL',
+88 silly publish   bugs: { url: 'https://github.com/Mparaiso/mpm.validation/issues' },
+88 silly publish   readme: 'mpm.validation\r\n==============\r\n\r\nvalidation framework for nodejs\r\n\r\nmpm.validation help developpers validate data and support async and\r\nsync validation, along with chain validation. developpers no longer\r\nneed to write their own validation framework.\r\n\r\nlicense LGPL\r\n\r\nauthor: mparaiso <mparaiso@online.fr>\r\n\r\n####INSTALLATION\r\n\r\n    npm install mpm.validation\r\n\r\n####USAGE\r\n\r\n    var validation = require(\'mpm.validation\');\r\n    var assert= require(\'assert\');\r\n    // instanciate an email validator\r\n    var email = validation.Email();\r\n    // using the async api\r\n    email.validate(\'mparaiso@online.fr\',function(error,result){\r\n        assert(result==true);\r\n    });\r\n    email.validate(\'bogus@web\',function(error,result){\r\n            assert(error instanceOf validation.ValidationError);\r\n            console.log(error.message);\r\n    });\r\n    // using the sync api\r\n    assert(email.validateSync(\'mparaiso.online.fr\'));\r\n    assert(!email.validateSync(\'bogus@web\'));\r\n    console.log(email.getError().message); // should be an email\r\n\r\n####Chain Validation\r\n    // you can chain validators , the chain will stop at the first error\r\n    var validation = require(\'mpm.validation\');\r\n    var chain = validation.Chain(\r\n        validation.Email(),\r\n        validation.MinLength(15)\r\n    );\r\n    chain.validate("mparaiso@online.fr",function(error,res){\r\n        assert(res);\r\n    });\r\n    chain.validate("bob@web.com",function(error,res){\r\n        assert(!res);\r\n        assert(err instanceof Error);\r\n        console.log(error.message);\r\n    });\r\n\r\n\r\nsee test/index.test.js file for other examples\r\n\r\n####Validators\r\n\r\n    validation.MinLength(min) // min length for a string\r\n    validation.MaxLength(max)// max length for a string\r\n    validation.Length(min,max)// range for a string length\r\n    validation.EqualTo(equalTo) // value should be equal to equalTo\r\n    validation.Required()// value should not be null or undefined\r\n    validation.Min(min)// number should be at least min\r\n    validation.Max(max)//  number should be at most max\r\n    validation.Range(min,max)//  number should be between min and max\r\n    validation.Regexp(regexp)// value should match a regular expression\r\n    validation.Email()// value should be an email\r\n    validation.Any(values)// value should be in an array of values\r\n    validation.None(values) // value should be none of the values\r\n    validation.Chain(validators...) // chain multiple validators',
+88 silly publish   readmeFilename: 'README.md',
+88 silly publish   _id: 'mpm.validation@0.0.4',
+88 silly publish   dist: { shasum: '0bbb0f33db05814eec3491d868699cf921eed963' },
+88 silly publish   _from: '.' }
+89 verbose url raw mpm.validation
+90 verbose url resolving [ 'https://registry.npmjs.org/', './mpm.validation' ]
+91 verbose url resolved https://registry.npmjs.org/mpm.validation
+92 info trying registry request attempt 1 at 18:39:28
+93 http PUT https://registry.npmjs.org/mpm.validation
+94 http 409 https://registry.npmjs.org/mpm.validation
+95 verbose url raw mpm.validation
+96 verbose url resolving [ 'https://registry.npmjs.org/', './mpm.validation' ]
+97 verbose url resolved https://registry.npmjs.org/mpm.validation
+98 info trying registry request attempt 1 at 18:39:29
+99 http GET https://registry.npmjs.org/mpm.validation
+100 http 200 https://registry.npmjs.org/mpm.validation
+101 error publish fail Cannot publish over existing version.
+101 error publish fail Update the 'version' field in package.json and try again.
+101 error publish fail
+101 error publish fail If the previous version was published in error, see:
+101 error publish fail     npm help unpublish
+101 error publish fail
+101 error publish fail To automatically increment version numbers, see:
+101 error publish fail     npm help version
+102 error System Windows_NT 6.1.7601
+103 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+104 error cwd C:\development\categories\node\mpm.validation
+105 error node -v v0.10.21
+106 error npm -v 1.3.11
+107 error code EPUBLISHCONFLICT
+108 verbose exit [ 1, true ]

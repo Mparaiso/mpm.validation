@@ -1,6 +1,8 @@
 mpm.validation
 ==============
 
+[![Build Status](https://travis-ci.org/Mparaiso/mpm.validation.png?branch=master)](https://travis-ci.org/Mparaiso/mpm.validation)
+
 validation framework for nodejs
 
 mpm.validation help developpers validate data and support async and
