@@ -56,7 +56,7 @@ see test/index.test.js file for other examples
 ####Validators
 
     validation.MinLength(min) // min length for a string
-    validation.MaxLength=(max)// max length for a string
+    validation.MaxLength(max)// max length for a string
     validation.Length(min,max)// range for a string length
     validation.EqualTo(equalTo) // value should be equal to equalTo
     validation.Required()// value should not be null or undefined
@@ -67,4 +67,4 @@ see test/index.test.js file for other examples
     validation.Email()// value should be an email
     validation.Any(values)// value should be in an array of values
     validation.None(values) // value should be none of the values
-    validation.Chain(validators...) // chain multiple validators , validation will stop at first error
+    validation.Chain(validators...) // chain multiple validators
