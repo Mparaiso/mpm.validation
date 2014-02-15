@@ -3,7 +3,7 @@ test:
 	@make commit
 commit:
 	@git add .
-	@git commit -am"auto-commit `date`" || :
+	@git commit -am"$(message) `date`" || :
 push: commit
 	@git push origin --all
 publish: push
