@@ -2,7 +2,7 @@
     "name": "mpm.validation",
     "version": "0.0.5",
     "description": "validation framework for the web",
-    "main": "index.js",
+    "main": "validation.js",
     "scripts": {
         "test": "mocha -R spec"
     },
