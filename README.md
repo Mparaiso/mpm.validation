@@ -74,6 +74,7 @@ see test/index.test.js file for other examples
 
 ####ChangeLog
 
+- 0.0.9 validation.Chain can now validate sync
 - 0.0.8 empty validation.Chain fixed
 
 

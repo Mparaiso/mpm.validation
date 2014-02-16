@@ -1,6 +1,6 @@
 {
     "name": "mpm.validation",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "validation framework for the web",
     "main": "validation.js",
     "scripts": {
