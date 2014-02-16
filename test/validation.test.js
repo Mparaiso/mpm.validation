@@ -205,4 +205,8 @@ describe('validation.Chain', function () {
         assert(chain.validateSync("superman@marvel.com"));
         assert(!chain.getError());
     });
+    it('shouldnt validate sync',function(){
+        assert(!chain.validateSync('magneto doesnt have a valid email'));
+        assert(chain.getError());
+    });
 });
