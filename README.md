@@ -70,3 +70,10 @@ see test/index.test.js file for other examples
     validation.Any(values)// value should be in an array of values
     validation.None(values) // value should be none of the values
     validation.Chain(validators...) // chain multiple validators
+
+
+####ChangeLog
+
+- 0.0.8 empty validation.Chain fixed
+
+
