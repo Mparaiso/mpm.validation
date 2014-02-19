@@ -352,12 +352,22 @@ validation.validators.Range.prototype.validate = function(value, callback) {
     return this._chainValidator.validate(value, callback);
 };
 
+/**
+ * Every values of an array should be the same
+ * @constructor
+ * @extends {validation.validators.Base}
+ */
 validation.validators.Every = function() {
     this.constructor.super_.apply(this, arguments);
 };
 util.inherits(validation.validators.Every, validation.validators.Base);
+/**
+ * validate an array
+ * @param  {Array}   value    an array of values
+ * @param  {Function} callback
+ */
 validation.validators.Every.prototype.validate = function(value, callback) {
-    var err, valid = true;
+    var valid = true;
     this.setError(undefined);
     if (!(value instanceof Array)) {
         throw 'value should be an array';
@@ -366,10 +376,14 @@ validation.validators.Every.prototype.validate = function(value, callback) {
         return val === value[0];
     }, this);
     if (!valid) {
-        err = new validation.ValidatorError(this.getMessage());
+        this.setError(validation.ValidatorError(this.getMessage()));
     }
-    callback(err, valid);
+    callback(this.getError(), valid);
 };
+/**
+ * get error message
+ * @return {string} error message
+ */
 validation.validators.Every.prototype.getMessage = function() {
     return " values should match ";
 }
@@ -420,6 +434,10 @@ validation.Chain = function() {
     chain._validators = [].slice.apply(arguments);
     return chain;
 };
-validation.Every=function(){
+/**
+ * Every values of an array should match
+ * @return {validation.validators.Every} 
+ */
+validation.Every = function() {
     return new validation.validators.Every();
 }

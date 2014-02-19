@@ -69,11 +69,12 @@ see test/index.test.js file for other examples
     validation.Email()// value should be an email
     validation.Any(values)// value should be in an array of values
     validation.None(values) // value should be none of the values
+    validation.Every() // validate an array of values. All values should be equal
     validation.Chain(validators...) // chain multiple validators
 
 
 ####ChangeLog
-
+- 0.1.0 validation.Every added
 - 0.0.9 validation.Chain can now validate sync
 - 0.0.8 empty validation.Chain fixed
 

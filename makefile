@@ -1,7 +1,6 @@
 test:
 	@mocha
-	@make commit
-commit:
+commit: test
 	@git add .
 	@git commit -am"$(message) `date`" || :
 push: commit
